@@ -1,3 +1,48 @@
+.app-container,
+.workspace,
+.workspace-split,
+.workspace-leaf,
+.workspace-leaf-content,
+.markdown-source-view,
+.markdown-reading-view,
+.view-content,
+.workspace-tabs,
+.workspace-tab-header-container,
+.titlebar,
+.titlebar-inner,
+.side-dock-ribbon,
+.sidebar-toggle-button,
+.workspace-ribbon,
+.nav-header,
+.nav-buttons-container,
+.workspace-sidebar,
+.mod-left-split {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+
+.theme-light .workspace {
+    backdrop-filter: brightness(1) blur(5px) !important;
+}
+.theme-dark .workspace {
+    backdrop-filter: brightness(0.35) blur(5px) !important;
+}
+
+
+.horizontal-main-container {
+    background-image: url("https://i.pinimg.com/1200x/44/84/e2/4484e27801d03b976444b172dc7f2eac.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.markdown-rendered h1 { color: #63a698 !important; }
+.markdown-rendered h2 { color: #dbcdbf !important; }
+.markdown-rendered h3 { color: #bfdbcf !important; }
+.markdown-rendered h4 { color: #bfc7db !important; }
+.markdown-rendered h5 { color: #d8bfdb !important; }
+
+
 body {
 	--background-primary: transparent;
 	--background-secondary: transparent;
